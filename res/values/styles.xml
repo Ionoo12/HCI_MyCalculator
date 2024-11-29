@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base Calculator Button Style -->
+    <style name="CalculatorButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/button_text</item>
+    </style>
+
+    <!-- Number Buttons -->
+    <style name="CalculatorButton.Number" parent="CalculatorButton">
+        <item name="android:background">@color/button_number</item>
+    </style>
+
+    <!-- Operator Buttons -->
+    <style name="CalculatorButton.Operator" parent="CalculatorButton">
+        <item name="android:background">@color/button_operator</item>
+    </style>
+
+    <!-- Clear/Delete Buttons -->
+    <style name="CalculatorButton.Clear" parent="CalculatorButton">
+        <item name="android:background">@color/button_clear</item>
+    </style>
+
+    <!-- Display Style -->
+    <style name="CalculatorDisplay">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/display_background</item>
+        <item name="android:textColor">@color/display_text</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">end|center_vertical</item>
+        <item name="android:padding">10dp</item>
+    </style>
+</resources>
