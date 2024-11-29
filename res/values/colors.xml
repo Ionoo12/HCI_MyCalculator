@@ -1,0 +1,10 @@
+<color name="calculator_background">#121212</color>
+<color name="display_background">#1F1F1F</color>
+<color name="display_text">#FFFFFF</color>
+<color name="button_number">#4CAF50</color>
+<color name="button_operator">#FF9800</color>
+<color name="button_clear">#F44336</color>
+<color name="button_text">#FFFFFF</color>
+<color name="button_number_hover">#66BB6A</color>
+<color name="button_operator_hover">#FFB74D</color>
+<color name="button_clear_hover">#EF5350</color>
